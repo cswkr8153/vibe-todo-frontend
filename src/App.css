@@ -1,0 +1,77 @@
+.app {
+  max-width: 520px;
+  margin: 48px auto;
+  padding: 0 16px;
+  text-align: left;
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.add-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.app input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.app button {
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #646cff;
+  color: #fff;
+}
+
+.app button.secondary {
+  background: #888;
+}
+
+.app button.danger {
+  background: #e5484d;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.todo-list li span {
+  flex: 1;
+  word-break: break-all;
+}
+
+.error {
+  color: #e5484d;
+  margin: 0 0 12px;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+}
